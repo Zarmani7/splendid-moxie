@@ -11,19 +11,19 @@ body{
     background: #474747;
     border-bottom: 2px solid #0c2461;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
 }
 nav{
-    width: 100%;
+    width: 100vw;
     position: fixed;
     z-index: 10;
     flex: 0 0 auto;
-    margin-left: -30px;
 }
 nav ul{
     list-style-type: none;
     display: none;
-    min-width: 100%;
+    width: 100vw;
+    margin-left: -30px;
 }
 nav ul a{
     text-decoration: none;
@@ -755,8 +755,8 @@ opacity: 0;
     color: #ffa502;
     text-decoration: underline;
 }
-.foot1 .foot2 .foot3{
-    margin-top: 50px;
+.foot1, .foot2, .foot3{
+    margin-top: 60px;
 }
 .btn-en3{
     width: 100px;
