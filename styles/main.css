@@ -22,6 +22,7 @@ nav{
 nav ul{
     list-style-type: none;
     display: none;
+    min-width: 100%;
 }
 nav ul a{
     text-decoration: none;
@@ -646,6 +647,7 @@ opacity: 0;
         font-size: 13px;
         margin-top: 10px;
         width: 350px;
+        margin-left: 0px;
     }
 
     
@@ -773,7 +775,7 @@ opacity: 0;
     text-align: center;
     justify-content: center;
     color: #fff;
-    margin-top: 90px;
+    margin-top: 120px;
 }
 .foot-icon a{
     font-size: 20px;
@@ -799,7 +801,7 @@ opacity: 0;
         display: none;
     }
     .foot1, .foot2, .foot3 a{
-        font-weight: light;
+        font-weight: bold;
         font-size: 13px;
     }
 }
